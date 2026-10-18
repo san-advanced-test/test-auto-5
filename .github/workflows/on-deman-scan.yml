@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run DigiCert Code Scan composite action
-        uses: digicert/digicert-code-monitoring-action@v2
+        uses: digicert/digicert-code-monitoring-action@v2-dev
         with:
             host: https://wasabi-culpable-unloaded.ngrok-free.dev
             api-key: ${{ secrets.DIGICERT_BACKEND_API_KEY }}
